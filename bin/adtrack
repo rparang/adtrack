@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+var yargs = require('yargs').usage('Usage: $0 -s');
+var Adtrack = require('../lib/main');
+var REPORT_DIR = './reports'
+
+var argv = yargs.argv;
+var adtrack = new Adtrack({"report_dir": REPORT_DIR});
+
+if (argv.s) {
+  adtrack._init();
+}
+else if (argv.tsv == 'sites') {
+  adtrack.getTsvOfSites(function(tsv) { console.log(tsv) });
+}
+else if (argv.tsv == 'category') {
+  adtrack.getTsvOfAvgByCategory(function(tsv) { console.log(tsv) });
+}
+else if (argv.tsv == 'company') {
+  adtrack.getTsvOfTrackers(function(tsv) { console.log(tsv) });
+}
+else {
+  yargs.showHelp();
+}
