@@ -12,7 +12,7 @@ The program does the following:
 
 You can create a TSV to make cool charts like this:
 
-[[ http://www.rezaparang.com/assets/top_sites_final-b38ede52fdf9afc5ee6a7deb721fa8f2.png | width = 400px ]]
+![](http://www.rezaparang.com/assets/top_sites_final-b38ede52fdf9afc5ee6a7deb721fa8f2.png)
 
 ## Requirements
 
