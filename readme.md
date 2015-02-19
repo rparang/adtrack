@@ -10,7 +10,7 @@ The program does the following:
 * Checks each resource against a database of suspecting advertising, analytics, and marketing companies
 * Delivers an audit of each site, specifying how many tracker URLs are used, what companies the site is using, and what data was sent about my visit
 
-You can create a TSV to make cool charts like this:
+You can create a TSV to then make cool charts like this:
 
 ![](http://www.rezaparang.com/assets/top_sites_final-b38ede52fdf9afc5ee6a7deb721fa8f2.png)
 

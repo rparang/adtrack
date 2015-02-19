@@ -1,4 +1,4 @@
 node_modules/
 ghostery/
-reports/*
+reports/*.json
 public/
