@@ -25,6 +25,7 @@ You can create a TSV to then make cool charts like this:
 
 * `git clone https://github.com/rparang/adtrack.git`
 * `cd adtrack/`
+* `npm install`
 * `mkdir reports`
 * Seed the initial report files: `./bin/adtrack -s`
   * PhantomJS hangs _a lot_ on the sites that are resource-heavy. I could not find away around this. As such, if the program hangs, you can `control + c` and resume Adtrack. It begins again on the last site it exited on.
